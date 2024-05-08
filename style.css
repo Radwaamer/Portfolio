@@ -228,7 +228,7 @@ header .navbar ul li a:hover{
 
 .education .box-container, .experience .box-container{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-between;
     flex-wrap: wrap;
     padding:1rem 0;
