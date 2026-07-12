@@ -94,21 +94,21 @@ header{
 }
 
 header .user img{
-    height:17rem;
-    width:17rem;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 1rem;
-    border:.7rem solid var(--yellow);
+    height:14rem;
+    width:14rem;
+    border-radius:50%;
+    object-fit:cover;
+    margin-bottom:.7rem;
+    border:.6rem solid var(--yellow);
 }
 
 header .user .name{
-    font-size: 3.5rem;
+    font-size:3rem;
     color:#fff;
 }
 
 header .user .post{
-    font-size: 2rem;
+    font-size:1.8rem;
     color:#eee;
 }
 
@@ -117,19 +117,19 @@ header .navbar{
 }
 
 header .navbar ul{
-    list-style: none;
-    padding:1rem 3rem;
+    list-style:none;
+    padding:.7rem 3rem;
 }
 
 
 header .navbar ul li a{
-    display: block;
-    padding:1rem;
-    margin:1.5rem 0;
+    display:block;
+    padding:.8rem 1rem;
+    margin:1rem 0;
     background:#333;
     color:#fff;
-    font-size: 2rem;
-    border-radius: 5rem;
+    font-size:1.8rem;
+    border-radius:5rem;
 }
 
 header .navbar ul li a:hover{
@@ -373,31 +373,66 @@ header .navbar ul li a:hover{
     font-weight: normal;
 }
 
+.contact .row .content .info h3 a{
+    display: flex;
+    align-items: center;
+    color:#eee;
+    text-transform: none;
+}
+
 .contact .row .content .info h3 i{
-    padding-right: 1rem;
+    color:var(--yellow);
+    padding-right:1rem;
+    min-width:3rem;
+    text-align:center;
+}
+
+.contact .row .content .info h3 a:hover{
     color:var(--yellow);
 }
 
-.top{
-    position: fixed;
-    bottom:7.5rem; right: 2rem;
-    z-index: 100;
-    display: none;
+.contact .row .content .info h3 a:hover i{
+    transform:scale(1.1);
 }
 
+.top{
+    position:fixed;
+    bottom:2.5rem;
+    right:2.5rem;
+    z-index:1000;
+    display:none;
+    width:5rem;
+    height:5rem;
+    border-radius:50%;
+    background:var(--yellow);
+    color:#fff;
+    font-size:2rem;
+    align-items:center;
+    justify-content:center;
+    box-shadow:0 .5rem 2rem rgba(0,0,0,.35);
+    border:.2rem solid var(--yellow);
+    padding:0;
+}
 
+.top i{
+    display:block;
+    margin:0;
+    padding:0;
+    line-height:1;
+    color:#fff;
+    transform:none;
+}
 
+.top:hover{
+    background:#111;
+    color:var(--yellow);
+    transform:translateY(-.4rem);
+    box-shadow:0 .8rem 2.5rem rgba(249,202,36,.25);
+}
 
-
-
-
-
-
-
-
-
-
-
+.top:hover i{
+    color:var(--yellow);
+}
 
 
 
